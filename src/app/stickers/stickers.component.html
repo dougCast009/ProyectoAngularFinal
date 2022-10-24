@@ -1,0 +1,12 @@
+<section class="container">
+    <h1 class="text-center mt-3">Stickers mas Trending</h1>
+    <hr>
+    <div class="row">
+        <div *ngFor="let sticker of stickers" class="card-group col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card text-center p-3 tarjeta">
+                <img [src]="sticker.images.original.url" class="card-img-top" alt="Imagen">
+                <button class="btn boton mt-4"><i class="fa-brands fa-whatsapp me-2"></i>Compartir</button>
+            </div>
+        </div>
+    </div>
+</section>

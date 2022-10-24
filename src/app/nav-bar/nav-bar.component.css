@@ -1,0 +1,15 @@
+.menu{
+    background-color: rgb(55, 129, 86);
+}
+
+.menu-item{
+    font-size: 1.5rem;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    font-size: 1.8rem;
+}
